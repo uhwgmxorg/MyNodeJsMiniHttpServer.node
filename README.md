@@ -1,5 +1,5 @@
 # MyNodeJsMiniHttpServer.node
-it contains the simplest form of a web server written in JavaScript with PUT and POST routes.
+a mini http web server in JavaScript for nodes.js it contains the simplest form of a web server written in JavaScript with PUT and POST routes.
 The web server can be addressed on port 3000 with curl.
 
 There are a lot of identical or similar examples on the net that demonstrate the same thing, so the code is nothing special. I put extra emphasis on minimalism.
@@ -12,4 +12,4 @@ the cutl statements:
 
 `curl -X POST -H "content-type: application/json" -d "{\"message\":\"11111\"}"  http://localhost:3000/post`
 
-I tested it on node 16.19.0 and 18.12.1
+I tested it on node 16.19.0 and 18.12.1 on Wondows and Linux.
