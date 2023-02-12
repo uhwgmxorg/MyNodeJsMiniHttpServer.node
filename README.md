@@ -12,4 +12,4 @@ the curl statements:
 
 `curl -X POST -H "content-type: application/json" -d "{\"message\":\"11111\"}"  http://localhost:3000/post`
 
-I tested it on node 16.19.0 and 18.12.1 on Wondows and Linux.
+I tested it on node 16.19.0 and 18.12.1 on Wondows and Linux (and importantly on Windows, use cmd, not PowerShell for the curl commands).
